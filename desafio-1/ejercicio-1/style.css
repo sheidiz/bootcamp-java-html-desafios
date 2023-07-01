@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
+/*En el ejercicio no detallaba usar font-weight, asi que opte por usar la etiqueta strong para las palabras en negrita como decia el ejercicio.*/
+
+:root{
+    --body-bg:#edf7ff;
+    --first-font-color: #0a2ff1;
+    --second-font-color: #04146c;;
+    --third-font-color: #8a9af1;
+}    
+
+body{
+    background-color: var(--body-bg);
+}
+header, .info-principal, .info-lista{
+    margin: 0 10%;
+}
+header{
+    color: var(--first-font-color);
+}
+header h1{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 88pt;
+    margin-bottom: 0;
+    height: 150px;
+}
+
+header p{
+    font-family: 'Asap', sans-serif;
+    font-size: 39pt;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.info-principal{
+    color: var(--second-font-color);
+    font-family: 'Asap', sans-serif;
+    font-size: 25pt;
+    margin-bottom: 100px;
+}
+
+.info-lista h5{
+    color: var(--first-font-color);
+    font-family: 'MuseoModerno', cursive;
+    font-size: 36pt;
+    margin: 0;
+}
+
+.info-lista ul li{
+    color: var(--second-font-color);
+    font-family: 'Asap',sans-serif;
+    font-size: 25pt;
+    margin-bottom: 15px;
+}
+
+footer{
+    color: var(--third-font-color);
+    font-family: 'MuseoModerno', cursive;
+    font-size: 149pt;
+    margin-top: 5%;
+}
