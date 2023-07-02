@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
-/*En el ejercicio no detallaba usar font-weight, asi que opte por usar la etiqueta strong para las palabras en negrita como decia el ejercicio.*/
+/*En el ejercicio no detallaba usar font-weight, asi que opte por usar la etiqueta strong para las palabras en negrita como decia el ejercicio.
+Me tomaba ok los valores en pt, pero los pase a px porque asi lo pedia*/
 
 :root{
     --body-bg:#edf7ff;
@@ -19,14 +20,14 @@ header{
 }
 header h1{
     font-family: 'MuseoModerno', cursive;
-    font-size: 88pt;
+    font-size: 117.3px;
     margin-bottom: 0;
     height: 150px;
 }
 
 header p{
     font-family: 'Asap', sans-serif;
-    font-size: 39pt;
+    font-size: 52px;
     margin-top: 0;
     margin-bottom: 100px;
 }
@@ -34,27 +35,27 @@ header p{
 .info-principal{
     color: var(--second-font-color);
     font-family: 'Asap', sans-serif;
-    font-size: 25pt;
+    font-size: 33.3px;
     margin-bottom: 100px;
 }
 
 .info-lista h5{
     color: var(--first-font-color);
     font-family: 'MuseoModerno', cursive;
-    font-size: 36pt;
+    font-size: 48px;
     margin: 0;
 }
 
 .info-lista ul li{
     color: var(--second-font-color);
     font-family: 'Asap',sans-serif;
-    font-size: 25pt;
+    font-size: 33.3px;
     margin-bottom: 15px;
 }
 
 footer{
     color: var(--third-font-color);
     font-family: 'MuseoModerno', cursive;
-    font-size: 149pt;
+    font-size: 198.6px;
     margin-top: 5%;
 }
