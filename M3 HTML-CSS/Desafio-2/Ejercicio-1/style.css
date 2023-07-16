@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+:root{
+    --font-family: 'Mulish', sans-serif;
+    --color-dark-blue: #04146c;
+    --color-violet: #414166;
+    --color-blue: #15163d;
+}
+body,form,input,button{
+    box-sizing: border-box; /*pdf*/
+    font-family: var(--font-family);
+}
+body{
+    background-image: url("../assets/Ejercicio-1/M4-desafio1-fondo.png");
+}
+
+input,button{
+    width: 500px; /*pdf*/
+    height: 50px; /*pdf*/
+    margin-bottom: 10px; /*pdf*/
+    padding: 10px; /*pdf*/
+    display: block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-flex{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.container-item{
+    background-image: url("../assets/Ejercicio-1/M4-desafio1-fondo-form.png");
+    width: 50%;
+}
+.container-item form{
+    width: 600px; /*pdf*/
+    height: 400px; /*pdf*/
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 25px auto;
+}
+h1{
+    color: var(--color-dark-blue);
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+}
+input{
+    font-size: 18.66px;
+    font-weight: 400;
+    border: 1px solid var(--color-violet);
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--color-blue);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+main{
+    background-image: url("../assets/Ejercicio-1/M4-desafio1-fondo.png");
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-size: contain;
+    margin: auto;
+    width: 50%;
+}
+input,button{
+    font-family: var(--font-family);
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 10px;
+}
+input,button{
+    font-family: var(--font-family);
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+h1,input,p,button{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    color: var(--color-dark-blue);
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+input{
+    font-size: 18.66px;
+    font-weight: 400;
+}
+input,button{
+    border: 1px solid var(--color-violet);
+}
+button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--color-blue);
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+*/

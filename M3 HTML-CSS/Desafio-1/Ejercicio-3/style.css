@@ -5,42 +5,31 @@
     --color-violet: #414166;
     --color-blue: #0a2ff1;
 }
-body{
-    box-sizing: border-box;
+body,input,button{
+    box-sizing: border-box; /*pdf*/
     font-family: var(--font-family);
-}
-main{
-    margin: auto;
-    width: 50%;
 }
 input,button{
-    font-family: var(--font-family);
-    width: 500px;
-    height: 50px;
-    margin-bottom: 10px;
-    padding: 10px;
+    width: 500px; /*pdf*/
+    height: 50px; /*pdf*/
+    margin-bottom: 10px; /*pdf*/
+    padding: 10px; /*pdf*/
     display: block;
-    box-sizing: border-box;
 }
-form{
-    padding: 10px;
+.container-flex{
+    display: flex;
+    justify-content:center;
+    text-align: center;
 }
 .line{
-    margin: auto;
     width: 500px;
     height: 5px;
     border-bottom:1px solid var(--color-dark-blue);
 }
-h1,input,p,button{
-    margin-left: auto;
-    margin-right: auto;
-}
 h1{
-    text-align: center;
     color: var(--color-dark-blue);
     font-size: 24px;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 input,p{
     font-size: 18.66px;
@@ -54,11 +43,9 @@ button{
     font-weight: 600;
     background-color: var(--color-blue);
     color: #ffffff;
-    padding-bottom: 10px;
 }
 
 p,a{
-    text-align: center;
     font-size: 18.66px;
     color: var(--color-blue);
     text-decoration: none;

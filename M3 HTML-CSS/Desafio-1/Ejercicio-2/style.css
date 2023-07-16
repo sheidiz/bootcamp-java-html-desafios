@@ -6,7 +6,7 @@
     --bg-blue: #8a9af1;
     --bg-aquamarine: #3ffff3;
 }
-main{
+main,button{
     font-family: var(--font-family);
 }
 p{
