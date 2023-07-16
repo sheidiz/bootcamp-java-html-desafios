@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'Coolvetica';
+    src: url('assets/fonts/coolvetica\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+:root{
+    --color-white: #ffffff;
+    --color-blue: #0a2ff1;
+    --color-dark-blue: #04146c;
+    --font-colvetica: 'Coolvetica', Arial, sans-serif;
+    --font-roboto: 'Roboto', Arial, sans-serif;
+}
+*{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 60%;
+    margin: auto;
+
+    text-align: center;
+}
+#title{
+    font-family: var(--font-colvetica);
+    font-size: 120px;
+    font-weight: 400;
+    color: var(--color-blue);
+    margin-bottom: 2rem;
+}
+#subtitle{
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--color-dark-blue);
+    margin-bottom: 2rem;
+}
+button{
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    font-weight: 400;
+
+    width: 50%;
+    align-self: center;
+    margin-bottom: 1.8rem;
+    padding: 1rem;
+}
+#probar-generador{
+    border: none;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+#explorar-paletas{
+    border: 2px solid var(--color-blue);
+    background-color: var(--color-white);
+    color: var(--color-dark-blue);
+}

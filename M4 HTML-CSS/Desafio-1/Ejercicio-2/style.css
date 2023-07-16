@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+:root{
+    --font-roboto: 'Roboto', sans-serif;
+    --font-regular: 400;
+    --font-bold: 700;
+    --font-light: 300;
+    --color-blue: #0a2ff1;
+    --color-dark-blue: #04146c;
+}
+*{
+    margin: 0;
+    font-family: var(--font-roboto);
+}
+.contenedor-flex{
+    width: 60%;/*pdf dice que cada contenedor 30% -> 30+30=60*/
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.columna1{
+    text-align: center;
+}
+.columna2{
+    display: flex;
+    flex-direction: column;
+}
+.columna1 #paleta{
+    /*agregue esto porque sino la img quedaba desproporcionada respecto a la imagen de referencia*/
+    height: 65%; 
+}
+.columna2 h1{
+    font-size: 64px;
+    font-weight: var(--font-bold);
+    color: var(--color-blue);
+    padding-bottom: 1rem;
+}
+.columna2 h3{
+    font-size: 32px;
+    font-weight: var(--font-light);
+    padding-bottom: 2rem;
+}
+.columna2 #puntuacion{
+    width: 30%; /*pdf*/
+}
+.columna2 p{
+    padding-top: 1rem;
+    font-size: 16px;
+    color: var(--color-dark-blue);
+}
