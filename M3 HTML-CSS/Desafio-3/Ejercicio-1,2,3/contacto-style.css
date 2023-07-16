@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+:root{
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Roboto Slab', serif;
+    --color-dark-blue: #04146c;
+    --color-violet: #2c00cc;
+    --color-orange: #f98500;
+    --color-white: #ffffff;
+    --color-red: #ff0000;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+/*NAV - COMIENZO*/
+#logo{
+    width: 5%;/*pdf*/
+}
+nav{
+    border-top: 2rem solid var(--color-blue);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+nav,ul,li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+}
+nav ul li a{
+    font-family: var(--primary-font-family);
+    font-size: 24px;
+    color: var(--color-dark-blue);
+    text-decoration: none;
+}
+nav > ul > .activo{
+    font-weight: 700;/*pdf*/
+}
+/*MAIN*/
+main{
+    padding: 1rem;
+}
+/*FORM - COMIENZO*/
+#contacto{
+    font-family: var(--secondary-font-family);
+    font-size: 45.3px;
+    font-weight: 700;
+    color: var(--color-violet);
+    margin-bottom: 1.5rem;
+}
+form{
+    font-family: var(--primary-font-family);
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+.space{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.blue-30{
+    font-size: 30.6px;
+    color: var(--color-dark-blue);
+}
+form label{
+    font-weight: 700;
+}
+form label span{
+    color: var(--color-red);
+}
+
+form input, form textarea{
+    border: 1px solid var(--color-violet);
+    width: 500px;
+}
+form input{
+    height: 50px;
+}
+form textarea{
+    height: 100px;
+}
+
+button{
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    
+    border: none;
+    border-radius: 10%;
+    
+    text-align: center;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--color-white);
+}
+#submit{
+    background-color: var(--color-violet);
+}
+#reset{
+    background-color: var(--color-orange);
+}

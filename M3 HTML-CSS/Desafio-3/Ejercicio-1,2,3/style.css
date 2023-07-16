@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+:root{
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Roboto Slab', serif;
+    --color-dark-blue: #04146c;
+    --color-blue: #3957f1;
+    --color-blue-text: #0a2ff1;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+#logo{
+    width: 5%;/*pdf*/
+}
+nav{
+    border-top: 2rem solid var(--color-blue);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+nav,ul,li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+}
+nav ul li a{
+    font-family: var(--primary-font-family);
+    font-size: 24px;
+    color: var(--color-dark-blue);
+    text-decoration: none;
+}
+nav > ul > .activo{
+    font-weight: 700;/*pdf*/
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-family: var(--secondary-font-family);
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--color-blue-text);
+    padding: 0.5rem;
+}
+header p{
+    font-family: var(--primary-font-family);
+    font-size:34.6px;
+    color: var(--color-dark-blue);
+}
+.web-hosting{
+    background-image: url("../assets/M5-Desafío1-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 90vh;
+}
+/*EJERCICIO 3*/
+.elegir-wh{
+    background-image: url("../assets/M5-Desafio3-img.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 85vh;
+    padding-left: 5rem;
+    border-bottom: 10px solid var(--color-blue);
+}
+.elegir-wh h2{
+    font-family: var(--secondary-font-family);
+    font-size: 45.3px;
+    font-weight: 700;
+    color: var(--color-blue-text);
+    margin-bottom: 2rem;
+    
+}
+.item, .item-info{
+    font-family: var(--primary-font-family);
+    font-size: 24px;
+    color: var(--color-dark-blue);
+    width: 50%;
+}
+.item-info{
+    margin-bottom: 2rem;
+}
+footer{
+    background-color: var(--color-blue);
+    height: 8vh;
+}
+#logo-footer{
+    height: 45%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
