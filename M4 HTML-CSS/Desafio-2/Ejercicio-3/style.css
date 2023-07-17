@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+:root{
+    --font-mulish: 'Mulish', sans-serif;
+    --color-blue: #0a2ff1;
+    --color-dark-blue: #04146c;
+    --color-white: #ffffff;
+    --font-regular: 400;
+    --font-bold: 700;
+    --font-black: 900;
+}
+*{
+    margin:0;
+}
+main{
+    font-family: var(--font-mulish);
+    padding: 4em;
+}
+h2,p{
+    font-weight: var(--font-regular);
+    padding-bottom: 2rem;
+}
+p strong, button{
+    font-weight: var(--font-bold);
+}
+h2{
+    font-size: 40px;
+    color: var(--color-blue);
+}
+h1{
+    font-size: 80px;
+    font-weight: var(--font-black);
+    color: var(--color-blue);
+    padding-bottom: 2.5rem;
+}
+p{
+    font-size: 26.6px;
+    color: var(--color-dark-blue)
+}
+button{
+    width: 400px; /*pdf*/
+    height: 70px; /*pdf*/
+    font-family: var(--font-mulish);
+    background-color: var(--color-blue);
+    font-size: 29.3px;
+    color: var(--color-white);
+    border: none;
+}
+

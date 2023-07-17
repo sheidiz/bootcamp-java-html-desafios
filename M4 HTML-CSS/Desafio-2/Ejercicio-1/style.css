@@ -25,8 +25,9 @@ body{
 header{
     font-family: var(--font-colvetica);
     font-weight: var(--font-regular);
-    font-size: 120px;
+    font-size: 60px; /*EL PDF decia 120px pero no queda como la referencia asi*/
     color: var(--color-blue);
+    padding-bottom: 4rem;
 }
 main{
     padding: 1em; /*pdf*/
@@ -54,7 +55,7 @@ main{
     font-size: 30px;
     font-weight: var(--font-black);
     color: var(--color-blue);
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
 }
 .card p{
     font-size: 24px;
