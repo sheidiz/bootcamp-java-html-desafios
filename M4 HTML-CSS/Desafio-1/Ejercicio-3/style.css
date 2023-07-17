@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'Coolvetica';
+    src: url('assets/fonts/coolvetica\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+:root{
+    --font-colvetica: 'Coolvetica', Arial, sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-bold: 700;
+    --font-black: 900;
+    --color-blue: #0a2ff1;
+    --color-dark-blue: #04146c;
+    --color-light-blue: #eff2ff;
+}
+*{
+    margin:0;
+}
+header{
+    padding: 5rem 11rem 0 11rem;
+}
+main{
+    padding: 0 11rem 0 11rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    font-family: var(--font-colvetica);
+    font-weight: var(--font-regular);
+    font-size: 120px;
+    color: var(--color-blue);
+    padding-bottom: 2rem;
+}
+header h3{
+    font-family: var(--font-roboto);
+    font-weight: var(--font-light);
+    font-size: 40px;
+    color: var(--color-dark-blue);
+    padding-bottom: 4rem;
+}
+
+.box-opiniones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.opinion{
+    width: 25%;
+    padding: 1em;
+    justify-content: space-evenly;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-light-blue);
+
+    font-family: var(--font-roboto);
+    font-size: 24px;
+    color: var(--color-dark-blue);
+}
+.opinion img{
+    width: 30%;
+}
+.opinion .op-location {
+    font-weight: var(--font-light);
+    font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+}
+.opinion .op-title{
+    font-weight: var(--font-black);
+    padding-bottom: 1em;
+}
+.opinion .op{
+    font-weight: var(--font-regular);
+    padding-bottom: 1em;
+}
