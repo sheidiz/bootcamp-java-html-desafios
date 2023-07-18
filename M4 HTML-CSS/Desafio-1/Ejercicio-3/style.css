@@ -21,10 +21,10 @@
     margin:0;
 }
 header{
-    padding: 5rem 11rem 0 11rem;
+    padding: 2rem 4rem 0 4rem;
 }
 main{
-    padding: 0 11rem 0 11rem;
+    padding: 0 4rem 2rem 4rem;
 }
 main{
     display: flex;
