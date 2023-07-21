@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --font-regular: 400;
+    --font-bold: 900;
+    --white: #ffffff;
+    --black: #000000;
+    --pink: #dca0dd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+header{
+    background-image: url("../assets/fondo\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-bottom: 1.5rem;
+}
+header h1{
+    font-weight: var(--font-bold);
+    font-size: 3em;
+    background: var(--white);
+    position: absolute;
+    left: 30%;
+    top: 15%; /*El PDF decia 30%, pero si lo dejo asi me queda muy desproporcional por el tamaño de mi pantalla*/
+    mix-blend-mode: screen;
+    border-radius: 10px;
+    padding: 10px;
+}
+main h3, main p{
+    margin-bottom: 1rem;
+}
+
+main h3{
+    font-weight: var(--font-bold);
+    font-size: 2em;
+    color: var(--black);
+}
+main p{
+    font-weight: var(--font-regular);
+}
+.container-experiencia{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.container-experiencia img{
+    border-radius: 10px;
+    width: 80%;
+}
+.experiencia-laboral{
+    background-color: var(--pink);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0%;
+    height: 99.6%;
+    margin-right: 15rem;
+    padding: 4rem 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+.experiencia-laboral h4{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.experiencia-laboral p{
+    margin-top: 1.5rem;
+}
+
+.container-experiencia:hover .experiencia-laboral{
+    opacity: 1;
+}
