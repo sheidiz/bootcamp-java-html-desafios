@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+:root{
+    --font-family: 'Mulish', sans-serif;
+    --blue: #0a2ff1;
+    --dark-blue: #04146c;
+}
+body{
+    font-family: var(--font-family);
+}
+.profile-img{
+    height: 5%;
+}
+.text-blue{
+    color: var(--blue);
+}
+.text-dark-blue{
+    color: var(--dark-blue);
+}
+.border-blue{
+    border: 2px solid var(--blue);
+    border-radius: 0;
+}

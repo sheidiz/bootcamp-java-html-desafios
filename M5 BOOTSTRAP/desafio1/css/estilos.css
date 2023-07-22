@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+:root{
+    --font-family: 'Mulish', sans-serif;
+    --font-regular: 400;
+    --font-bold: 700;
+    --blue: #3957f1;
+    --dark-blue: #15163d;
+    --grey: #c2c2c2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    font-family: var(--font-family);
+}
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+.fila-1 h1{
+    color: var(--blue);
+    font-size: 53.3px;
+    font-weight: var(--font-bold);
+    text-align: center;
+}
+.fila-2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.fila-2 figcaption{
+    padding: 1.5rem 0;
+    box-shadow: 4px 6px 10px 1px var(--grey);
+
+    text-align: center;
+    color: var(--dark-blue);
+    font-weight: var(--font-regular);
+    font-size: 28px;
+}
+@media(min-width:769px) and (max-width:992px){
+    .fila-2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fila-2 figcaption{
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+}
+@media(max-width:768px){
+    .fila-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
