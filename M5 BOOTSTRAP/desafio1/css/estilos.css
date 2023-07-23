@@ -54,6 +54,9 @@ main{
     }
 }
 @media(max-width:768px){
+    .fila-1 h1{
+        padding: 0 6rem;
+    }
     .fila-2{
         display: flex;
         flex-direction: column;

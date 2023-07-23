@@ -13,7 +13,7 @@
     font-family: var(--font-family);
 }
 .container-flex{
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -27,32 +27,62 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .fila-2 .item{
-    width: 22%;
+    width: 24%;
+    height: 10rem;
     text-align: center;
-    border-bottom-left-radius: 3%;
-    border-bottom-right-radius: 3%;
-    position: relative;
-    margin-right: 10px;
+    border-radius: 2%;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.fila-2 img{
-    height: 50%;
+#item-1{
+    background: url("../assets/ProgramasInternacionales.png"); 
+}
+#item-2{
+    background: url("../assets/ParcticasProfesionales.png");
+}
+#item-3{
+    background: url("../assets/Becas.png");
+}
+#item-4{
+    background: url("../assets/CampusVirtual.png");
+}
+#item-1,#item-2,#item-3,#item-4{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 .fila-2 .item h2{
-    position: absolute;
-    top:30%;
-    left: 20%;
     font-weight: var(--font-bold);
     font-size: 2rem;
     line-height: 2rem;
     color: var(--white);
 }
 .fila-2 .item p{
-    position: absolute;
-    top:40%;
     font-weight: var(--font-regular);
     font-size: 1.5rem;
     color: var(--white);
+}
+@media (max-width: 768px){
+    .fila-2{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .fila-2 .item{
+        width: 70%;
+        height: 16rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .fila-2{
+        gap: 1rem;
+    }
+    .fila-2 .item{
+        width: 40%;
+        height: 12rem;
+    }
 }
