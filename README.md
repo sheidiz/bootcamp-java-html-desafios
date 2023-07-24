@@ -6,8 +6,8 @@ Bootcamp Java Developer - EducacionIT - Vicente Lopez
 - M2:
     - Ejercicios 1,2,3 - Corregido ✓
 - M3:
-      - Desafios 1,2,3 - A corregir
-      - El ejercicio 2 que involucraba PHP no lo vimos ni tenemos material.
+    - Desafios 1,2,3 - A corregir
+    - El ejercicio 2 que involucraba PHP no lo vimos ni tenemos material.
 - M4:
-      - Desafios 1,2 - A corregir
-      - Desafio 3 - Haciendo
+    - Desafios 1,2 - A corregir
+    - Desafio 3 - Haciendo
