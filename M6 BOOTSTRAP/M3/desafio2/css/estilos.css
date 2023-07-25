@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
+:root{
+    --font-family: 'Source Sans 3', sans-serif;
+    --dark-blue: #04146c;
+    --white: #ffffff;
+}
+.fs-h1{
+    /*62pt*/
+    font-size: 82.6px;
+}
+.fs-p{
+    /*16pt*/
+    font-size: 21.3px;
+}
+
+.fc-dark-blue{
+    color: var(--dark-blue);
+}
+
+.btn-dark-blue{
+    /*14pt*/
+    font-size: 18.6px;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    width: 150px;
+    /*si le doy 14pt y 150px de width se me pasaba a dos reglones el boton, y me quedaba diferente a la referencia, asi que le sale los padding X*/
+    padding-left: 0;
+    padding-right: 0;
+    font-variant: small-caps;
+}
+
+
+
+.fc-white{
+    
+}
+.bg-dark-blue{
+    
+}
+.fv-small-caps{
+    
+}
+
+#img-ropa{
+    width: 80%;
+}
+@media(max-width: 768px){
+    #img-ropa{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        margin-left: 6vw!important;
+    }
+    .row{
+        justify-content: start!important;
+    }
+    #img-ropa{
+        width: 100%;
+    }
+}
+@media (min-width:769px){
+    #img-ropa{
+        width:80%;
+    }
+}

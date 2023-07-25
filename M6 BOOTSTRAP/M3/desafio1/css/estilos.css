@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+:root{
+    --font-family: 'Mulish', sans-serif;
+    --lilac: #5974ff;
+    --light-lilac: #8a9af1;
+    --dark-blue: #04146c;
+}
+body{
+    font-family: var(--font-family);
+}
+#btn-envio{
+    width: 150px;
+    height: 50px;
+}
+.fc-dark-blue{
+    color: var(--dark-blue);
+}
+.bg-lilac{
+    background-color: var(--lilac);
+}
+.border-light-lilac{
+    border: 1px solid var(--light-lilac);
+}
+.fs-24{
+    /*18pt*/
+    font-size: 24px;
+}
+.fs-17{
+    /*13pt*/
+    font-size: 17.3px;
+}
