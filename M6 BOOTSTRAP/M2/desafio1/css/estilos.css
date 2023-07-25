@@ -16,7 +16,22 @@ body{
 .text-dark-blue{
     color: var(--dark-blue);
 }
-.border-blue{
+.btn-border-blue{
     border: 2px solid var(--blue);
     border-radius: 0;
+    font-size: 24px;
+}
+#nuestroteam{
+    font-size: 65.3px;
+}
+#name{
+    font-size: 40px;
+}
+#position,#description{
+    font-size: 24px;
+}
+@media (max-width: 576px){
+    .profile-img{
+        width: 50%!important;
+    }
 }
