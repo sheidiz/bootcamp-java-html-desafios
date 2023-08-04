@@ -14,3 +14,5 @@ Bootcamp Java Developer - EducacionIT - Vicente Lopez
     - Desafio 1,2 - A corregir
 - M6 BOOTSTRAP:
     - Modulo 2 y 3 > Desafio 1,2 - A corregir
+- M7 JS:
+    - Modulo 1 y 2 > A corregir
