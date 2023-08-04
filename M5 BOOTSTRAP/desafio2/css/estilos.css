@@ -73,8 +73,13 @@
         gap: 0.5rem;
     }
     .fila-2 .item{
-        width: 70%;
-        height: 16rem;
+        margin: auto;
+        width: 100%;
+        height: 20rem;
+    }
+    .fila-1 h1{
+        font-size: 5rem;
+        margin-bottom: 1rem;
     }
 }
 @media (min-width: 769px) and (max-width: 992px){
@@ -85,4 +90,5 @@
         width: 40%;
         height: 12rem;
     }
+    
 }

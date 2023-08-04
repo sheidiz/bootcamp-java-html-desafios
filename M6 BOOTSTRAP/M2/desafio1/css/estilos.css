@@ -30,7 +30,8 @@ body{
 #position,#description{
     font-size: 24px;
 }
-@media (max-width: 576px){
+@media (max-width: 768px){
+    /*en vez de pantalla sm puse hasta md asi no se veia mal*/
     .profile-img{
         width: 50%!important;
     }

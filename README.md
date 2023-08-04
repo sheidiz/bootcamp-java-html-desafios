@@ -11,6 +11,6 @@ Bootcamp Java Developer - EducacionIT - Vicente Lopez
 - M4:
     - Desafios 1,2,3 - A corregir
 - M5 BOOTSTRAP:
-    - Desafio 1,2 - Falta enviar form
+    - Desafio 1,2 - A corregir
 - M6 BOOTSTRAP:
-    - Modulo 2 y 3 > Desafio 1,2 - Falta enviar form
+    - Modulo 2 y 3 > Desafio 1,2 - A corregir
